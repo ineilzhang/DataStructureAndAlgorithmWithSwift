@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		D950575D2040F87400A562BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950575C2040F87400A562BC /* main.swift */; };
+		D95057642040FB6100A562BC /* LinkedListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95057632040FB6100A562BC /* LinkedListNode.swift */; };
+		D95057662041015700A562BC /* LinkedList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95057652041015700A562BC /* LinkedList.swift */; };
+		D950576820414EF200A562BC /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950576720414EF200A562BC /* Stack.swift */; };
+		D950576A2041564200A562BC /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95057692041564200A562BC /* Queue.swift */; };
+		D950576C20415E2500A562BC /* FindTwoSum.swift in Sources */ = {isa = PBXBuildFile; fileRef = D950576B20415E2500A562BC /* FindTwoSum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		D95057592040F87400A562BC /* DataStructureAndAlgorithm */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DataStructureAndAlgorithm; sourceTree = BUILT_PRODUCTS_DIR; };
 		D950575C2040F87400A562BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		D95057632040FB6100A562BC /* LinkedListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedListNode.swift; sourceTree = "<group>"; };
+		D95057652041015700A562BC /* LinkedList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedList.swift; sourceTree = "<group>"; };
+		D950576720414EF200A562BC /* Stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		D95057692041564200A562BC /* Queue.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		D950576B20415E2500A562BC /* FindTwoSum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindTwoSum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				D950575C2040F87400A562BC /* main.swift */,
+				D95057632040FB6100A562BC /* LinkedListNode.swift */,
+				D95057652041015700A562BC /* LinkedList.swift */,
+				D950576720414EF200A562BC /* Stack.swift */,
+				D95057692041564200A562BC /* Queue.swift */,
+				D950576B20415E2500A562BC /* FindTwoSum.swift */,
 			);
 			path = DataStructureAndAlgorithm;
 			sourceTree = "<group>";
@@ -120,6 +135,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D950576A2041564200A562BC /* Queue.swift in Sources */,
+				D950576820414EF200A562BC /* Stack.swift in Sources */,
+				D95057662041015700A562BC /* LinkedList.swift in Sources */,
+				D950576C20415E2500A562BC /* FindTwoSum.swift in Sources */,
+				D95057642040FB6100A562BC /* LinkedListNode.swift in Sources */,
 				D950575D2040F87400A562BC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

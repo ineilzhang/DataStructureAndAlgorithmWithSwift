@@ -10,3 +10,15 @@ import Foundation
 
 print("Hello, World!")
 
+//testList()
+
+//testStack()
+
+//testQueue()
+
+let array = [1,2,3,4,5]
+let (firstIndex,secondIndex) = findTwoSum(array: array, target: 7)!
+print("firstIndex = \(firstIndex) secondIndex = \(secondIndex)")
+
+
+
