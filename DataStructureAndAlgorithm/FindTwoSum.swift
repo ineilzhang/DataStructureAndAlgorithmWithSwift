@@ -24,12 +24,27 @@ public func findTwoSum(array: [Int], target: Int) -> (Int, Int)? {
     return nil
 }
 
-public func findTowSum2(array: [Int], target: Int) -> (Int, Int)? {
+public func findTwoSum2(array: [Int], target: Int) -> (Int, Int)? {
     guard array.count > 1 else {
         print("array is empty")
         return nil
     }
-    for index in 0..<array.count {
-        
+    var i = 0,j = array.count - 1
+    while array[i] + array[j] != target {
+        if i >= j {
+            return nil
+        }
+        if array[i] + array[j] < target {
+            i+=1
+        }else{
+            j-=1
+        }
     }
+    return (i,j)
+}
+
+public func testFindTwoSum() {
+    let array = [1,2,3,4,5]
+    let (firstIndex,secondIndex) = findTwoSum2(array: array, target: 7)!
+    print("firstIndex = \(firstIndex) secondIndex = \(secondIndex)")
 }

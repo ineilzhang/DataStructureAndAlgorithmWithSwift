@@ -16,9 +16,17 @@ print("Hello, World!")
 
 //testQueue()
 
-let array = [1,2,3,4,5]
-let (firstIndex,secondIndex) = findTwoSum(array: array, target: 7)!
-print("firstIndex = \(firstIndex) secondIndex = \(secondIndex)")
+//testBubble()
+
+//testSelect()
+
+//testInsert()
+
+//testMerge()
+
+//testQuick()
+
+
 
 
 
